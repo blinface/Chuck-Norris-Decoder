@@ -114,7 +114,7 @@ fun encode(input: String): String {
         //if first element of i element of array (in my example it's '1'), we print a new block starting with "0 "
         if (arr[i][0] == '1') {
             print("0 ")
-            //then print more 0's based on the length of array
+            //then print more 0's based on the length of element of array
             repeat (arr[i].length) {
                 print("0")
             }
